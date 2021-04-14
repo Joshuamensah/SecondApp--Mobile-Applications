@@ -3,14 +3,16 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import LoginScreen from './LoginScreen';
 import ContactsScreen from './ContactsScreen';
-import contact from './components/Contact'
+import Contact from './components/Contact'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {/*<LoginScreen/>*/}
-      <ContactsScreen/>
-      {/*<Contact/>*/}
+  
+   <LoginScreen/>
+     
+      
+      
       <StatusBar style="auto" />
     </View>
   );
@@ -18,9 +20,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+   marginTop:50
+  }
 });

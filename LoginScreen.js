@@ -24,40 +24,9 @@ export default class LoginScreen extends Component {
             placeholderTextColor="#aaaaaa"
             placeholder="Username"
           />
-          <TextInput
-            style={styles.input}
-            placeholderTextColor="#aaaaaa"
-            secureTextEntry={true}
-            placeholder="Password"
-          />
+          
 
-          <TextInput
-            style={styles.input}
-            placeholderTextColor="#aaaaaa"
-            secureTextEntry={true}
-            placeholder="Password"
-          />
-
-          <TextInput
-            style={styles.input}
-            placeholderTextColor="#aaaaaa"
-            secureTextEntry={true}
-            placeholder="Password"
-          />
-
-          <TextInput
-            style={styles.input}
-            placeholderTextColor="#aaaaaa"
-            secureTextEntry={true}
-            placeholder="Password"
-          />
-
-          <TextInput
-            style={styles.input}
-            placeholderTextColor="#aaaaaa"
-            secureTextEntry={true}
-            placeholder="Password"
-          />
+          
 
           <TextInput
             style={styles.input}
