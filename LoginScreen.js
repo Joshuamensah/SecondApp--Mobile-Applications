@@ -26,8 +26,6 @@ export default class LoginScreen extends Component {
           />
           
 
-          
-
           <TextInput
             style={styles.input}
             placeholderTextColor="#aaaaaa"

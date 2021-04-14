@@ -3,13 +3,16 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import LoginScreen from './LoginScreen';
 import ContactsScreen from './ContactsScreen';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import SignupScreen from './SignupScreen';
+import Pets from './components/Pets';
+import PetScreen from './PetScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
   
-   <LoginScreen/>
+   <Pets/>
      
       
       

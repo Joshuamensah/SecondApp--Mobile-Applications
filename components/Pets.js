@@ -1,16 +1,15 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
-import whitedog from './assets.whitedog.jpg';
+import {View, Text, Image,  StyleSheet} from 'react-native';
 import { EvilIcons } from '@expo/vector-icons';
 
 const Pets = ({name,diff}) => {
     return (
         <View style={styles.container}>
-            <Image source = {whitedog} style={styles.image} />
+            <Image source = {require('../assets/Cat.jpeg')} style={styles.image} />
             <View style={styles.view}>
                 <Text>{name}</Text>
                 <Text>{diff}</Text>
-                <Text>Puppy</Text>
+                <Text>Kitty</Text>
             </View>
             <View>
             <EvilIcons name="location" size={30} color="grey" />
@@ -28,7 +27,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
     },
     image: {
-        weight: 70,
+        height: 70,
         width: 70,
         borderRadius: 10,
     },
