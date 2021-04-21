@@ -12,10 +12,10 @@ export default class LoginScreen extends Component {
   render() {
     return (
       <ScrollView
-        styles={styles.container}
+        style={styles.container}
         showsVerticalScrollIndicator={false}
       >
-        <View styles={styles.loginTextContainer}>
+        <View style={styles.loginTextContainer}>
           <Text style={styles.loginText}>LOG IN</Text>
         </View>
         <View>

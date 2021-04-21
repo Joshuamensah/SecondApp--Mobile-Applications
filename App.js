@@ -12,7 +12,7 @@ export default function App() {
   return (
     <View style={styles.container}>
   
-   <Pets/>
+   <PetScreen/>
      
       
       
@@ -23,6 +23,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-   marginTop:50
+   //marginTop:50
+   flex: 1
   }
 });

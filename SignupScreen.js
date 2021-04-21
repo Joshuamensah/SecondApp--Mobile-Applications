@@ -15,7 +15,7 @@ export default class SignupScreen extends Component {
         style={styles.container}
         showsVerticalScrollIndicator={false}
       >
-        <View styles={styles.loginTextContainer}>
+        <View style={styles.loginTextContainer}>
           <Text style={styles.loginText}>SIGN UP</Text>
         </View>
         <View>
